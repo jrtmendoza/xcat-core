@@ -43,7 +43,7 @@ Prepare the Management Node ``xcatmn.mydomain.com``
 
     wget https://raw.githubusercontent.com/xcat2/xcat-core/master/xCAT-server/share/xcat/tools/go-xcat -O - >/tmp/go-xcat
     chmod +x /tmp/go-xcat
-    go-xcat --yes install
+    /tmp/go-xcat --yes install
     source /etc/profile.d/xcat.sh
    
 #. Configure the system password for the root user on the compute nodes: ::
